@@ -1,8 +1,8 @@
 import React from 'react'
 import {IoMdMenu} from 'react-icons/io'
-import NavSearch from './NavSearch'
-import NavAccount from './NavAccount'
-import NavCart from './NavCart'
+import NavSearch from './navsearch'
+import NavAccount from './navaccount'
+import NavCart from './navcart'
 
 
 export default function Nav() {

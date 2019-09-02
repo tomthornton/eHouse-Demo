@@ -1,8 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
-import Topbar from './Topbar'
+import Topbar from './topbar'
 import Logo from '../../assets/images/fakestore-logo.png';
-import Nav from '../nav/Nav'
+import Nav from '../nav/nav'
 
 const Header = ({ siteTitle }) => {
 
