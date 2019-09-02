@@ -34,7 +34,7 @@
     font-size: 10px !important;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
     .slider-arrow-next, .slider-arrow-prev {
         display: none;
     }
