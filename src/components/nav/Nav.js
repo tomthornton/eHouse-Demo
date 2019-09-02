@@ -1,0 +1,34 @@
+import React from 'react'
+import {IoMdMenu} from 'react-icons/io'
+import NavSearch from './NavSearch'
+import NavAccount from './NavAccount'
+import NavCart from './NavCart'
+
+
+export default function Nav() {
+
+    const navLinks = [
+        'women',
+        'men',
+        'kids',
+        'home',
+        'sale'
+    ]
+
+    return (
+        <div className='nav-container'>
+            <button className='mobile-menu-icon'>
+                <IoMdMenu/>
+            </button>
+            <ul className='nav-main-menu'>
+                {navLinks.map(link => (
+                    <li className='nav-menu-item'>
+                        <a>{link}</a>
+                    </li>))}
+            </ul>
+            <NavSearch/>
+            <NavAccount/>
+            <NavCart cartCount={3}/>
+        </div>
+    )
+}
