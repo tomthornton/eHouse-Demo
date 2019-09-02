@@ -144,8 +144,15 @@ $containerMaxWidth: 1440px;
                 max-width: 100px;
                 font-family: Roboto Bold;
 
+                a {
+                    color: $darkblack;
+                    text-decoration: none;
+                }
+
                 &:last-child {
-                    color: $accentColor;
+                    a{
+                        color: $accentColor;
+                    }
                 }
             }
         }
